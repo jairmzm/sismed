@@ -1,8 +1,8 @@
 <?php
-$host="localhost";
-$username="root";
-$pass="";
-$database="farmacia";
+$host=" sql302.infinityfree.com ";
+$username="if0_36272600";
+$pass="iuIk6xdWwWy7T45";
+$database="if0_36272600_farmacia";
 
 $conexion=mysqli_connect($host,$username,$pass,$database);
 
