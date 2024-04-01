@@ -1,5 +1,5 @@
 <?php
-$host=" sql302.infinityfree.com ";
+$host="sql302.infinityfree.com";
 $username="if0_36272600";
 $pass="iuIk6xdWwWy7T45";
 $database="if0_36272600_farmacia";
