@@ -2,7 +2,7 @@
 
 require 'head.php';
 require '../conexion.php';
-$conn=new PDO('mysql:host=localhost; dbname=farmacia', 'root', '') or die(mysql_error());
+$conn=new PDO('mysql:host=sql302.infinityfree.com; dbname=if0_36272600_farmacia', 'if0_36272600', 'iuIk6xdWwWy7T45') or die(mysql_error());
 if(isset($_POST['submit'])!=""){
   $name=$_FILES['file']['name'];
   $size=$_FILES['file']['size'];
