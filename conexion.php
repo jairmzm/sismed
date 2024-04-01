@@ -1,11 +1,11 @@
 <?php
 session_start();
-$host=$_ENV["DB_HOST"];
-$username=$_ENV["DB_USER"];
-$pass=$_ENV["DB_PASSWORD"];
-$database=$_ENV["DB_NAME"];
+$DB_HOST=$_ENV["DB_HOST"];
+$DB_USER=$_ENV["DB_USER"];
+$DB_PASSWORD=$_ENV["DB_PASSWORD"];
+$DB_NAME=$_ENV["DB_NAME"];
 
-$conexion=mysqli_connect($host,$username,$pass,$database);
+$conexion=mysqli_connect($DB_HOST,$DB_USER,$DB_PASSWORD,$DB_NAME);
 
 //$prueba=mysqli_query($conexion,"SELECT * FROM registrar");
 //print_r($prueba);
