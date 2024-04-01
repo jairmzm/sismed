@@ -1,9 +1,9 @@
 <?php
 
-	$db_host = 'localhost'; //Host del Servidor MySQL
-	$db_name = 'farmacia'; //Nombre de la Base de datos
-	$db_user = 'root'; //Usuario de MySQL
-	$db_pass = ''; //Password de Usuario MySQL
+	$db_host = 'sql302.infinityfree.com'; //Host del Servidor MySQL
+	$db_name = 'if0_36272600_farmacia'; //Nombre de la Base de datos
+	$db_user = 'if0_36272600'; //Usuario de MySQL
+	$db_pass = 'iuIk6xdWwWy7T45'; //Password de Usuario MySQL
 
 	$fecha = date("Ymd-His"); //Obtenemos la fecha y hora para identificar el respaldo
 
